@@ -1,2 +1,9 @@
-# cms
-front(vuejs)
+# vueJs Sample
+
+
+
+```
+npm install
+
+npm run serve
+```
