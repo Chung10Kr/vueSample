@@ -9,7 +9,7 @@
 npm install
 ```
 
-# Run Server
+# Run
 ```
 npm run serve 
 or
