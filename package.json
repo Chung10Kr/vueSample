@@ -1,0 +1,60 @@
+{
+    "name": "cms",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "serve": "vue-cli-service serve",
+        "build": "vue-cli-service build",
+        "lint": "vue-cli-service lint",
+        "start": "npm run serve"
+    },
+    "dependencies": {
+        "@fortawesome/free-regular-svg-icons": "^5.15.2",
+        "axios": "^0.19.2",
+        "chart": "^0.1.2",
+        "chart.js": "^2.9.3",
+        "core-js": "^2.6.5",
+        "js-cookie": "^2.2.1",
+        "moment": "^2.26.0",
+        "sockjs-client": "^1.5.1",
+        "v-calendar": "^1.0.0-beta.23",
+        "vue": "^2.6.11",
+        "vue-naver-maps": "^0.14.1",
+        "vue-router": "^3.1.6",
+        "vue-sidebar-menu": "4.5.3",
+        "vuex": "^3.3.0",
+        "webstomp-client": "^1.2.6",
+        "xlsx": "^0.16.2"
+    },
+    "devDependencies": {
+        "@fortawesome/fontawesome-svg-core": "^1.2.34",
+        "@fortawesome/free-solid-svg-icons": "^5.15.2",
+        "@fortawesome/vue-fontawesome": "^2.0.2",
+        "@vue/cli-plugin-babel": "^3.12.0",
+        "@vue/cli-plugin-eslint": "^3.12.0",
+        "@vue/cli-service": "^3.12.0",
+        "babel-eslint": "^10.1.0",
+        "eslint": "^6.7.2",
+        "eslint-plugin-vue": "^6.2.2",
+        "vue-template-compiler": "^2.6.11"
+    },
+    "eslintConfig": {
+        "root": true,
+        "env": {
+            "node": true
+        },
+        "extends": [
+            "plugin:vue/essential",
+            "eslint:recommended"
+        ],
+        "parserOptions": {
+            "parser": "babel-eslint"
+        },
+        "rules": {}
+    },
+    "browserslist": [
+        "> 1%",
+        "last 2 versions",
+        "not dead"
+    ]
+}
