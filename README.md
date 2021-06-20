@@ -1,9 +1,17 @@
-# vueJs Sample
+# VueJs Sample
+
+- VueJs
+- 
 
 
-
+# Setting
 ```
 npm install
+```
 
-npm run serve
+# Run Server
+```
+npm run serve 
+or
+npm start
 ```
